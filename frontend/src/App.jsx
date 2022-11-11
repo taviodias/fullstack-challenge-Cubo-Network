@@ -1,7 +1,13 @@
+import { Content } from "./components/content";
+import { Form } from "./components/form";
+
 export function App() {
 
   return (
-    <h1 className="font-bold text-2xl">Teste</h1>
+    <>
+      <Form />
+      <Content />
+    </>
   )
 }
 
