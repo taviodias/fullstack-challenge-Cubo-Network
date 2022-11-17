@@ -1,7 +1,7 @@
 export function Form(){
     return (
         <header className="p-4 bg-[#00b8e2] w-full">
-            <form className="flex justify-center space-x-5 py-11">
+            <form className="flex justify-center space-x-5 py-11 container max-w-5xl mx-auto">
                 <Input type="text" name="firstName" placeholder="First name" />
                 <Input type="text" name="lastName" placeholder="Last name" />
                 <Input type="number" name="share" placeholder="Participation" min='0' max='100' />
