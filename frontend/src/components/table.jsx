@@ -1,6 +1,6 @@
 export function Table(){
     return(
-        <table className="justify-center grow border border-gray-300 border-collapse table-fixed text-sm text-[#707070]">
+        <table className="justify-center h-min border border-gray-300 border-collapse table-fixed text-sm text-[#707070]">
             <thead>
                 <tr>
                     <th className="border border-gray-300 p-2 w-9"></th>

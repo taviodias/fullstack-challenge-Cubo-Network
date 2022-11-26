@@ -8,7 +8,7 @@ export function Content(){
                 <p className="text-2xl font-bold">DATA</p>
                 <p className="pt-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-            <div className="flex w-full gap-8">
+            <div className="grid grid-cols-2 w-full gap-8">
                 <Table />
                 <Chart />
             </div>
