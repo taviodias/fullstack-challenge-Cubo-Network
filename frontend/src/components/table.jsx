@@ -1,4 +1,4 @@
-export function Table(){
+export function Table({participants}){
     return(
         <table className="justify-center h-min border border-gray-300 border-collapse table-fixed text-sm text-[#707070]">
             <thead>
@@ -10,13 +10,19 @@ export function Table(){
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td className="border border-gray-300 p-2 text-center">1</td>
-                    <td className="border border-gray-300 p-2">Carlos</td>
-                    <td className="border border-gray-300 p-2">Moura</td>
-                    <td className="border border-gray-300 p-2 text-center">5%</td>
-                </tr>
-                <tr>
+                {
+                    participants.map((participant, index) => {
+                        return(
+                            <tr key={index}>
+                                <td className="border border-gray-300 p-2 text-center">{index+1}</td>
+                                <td className="border border-gray-300 p-2">{participant.firstName}</td>
+                                <td className="border border-gray-300 p-2">{participant.lastName}</td>
+                                <td className="border border-gray-300 p-2 text-center">{participant.share}%</td>
+                            </tr>
+                        )
+                    })
+                }
+                {/* <tr>
                     <td className="border border-gray-300 p-2 text-center">2</td>
                     <td className="border border-gray-300 p-2">Fernanda</td>
                     <td className="border border-gray-300 p-2">Oliveira</td>
@@ -39,7 +45,7 @@ export function Table(){
                     <td className="border border-gray-300 p-2">Anderson</td>
                     <td className="border border-gray-300 p-2">Silva</td>
                     <td className="border border-gray-300 p-2 text-center">40%</td>
-                </tr>
+                </tr> */}
             </tbody>
         </table>
     )
