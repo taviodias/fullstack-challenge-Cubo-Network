@@ -22,30 +22,6 @@ export function Table({participants}){
                         )
                     })
                 }
-                {/* <tr>
-                    <td className="border border-gray-300 p-2 text-center">2</td>
-                    <td className="border border-gray-300 p-2">Fernanda</td>
-                    <td className="border border-gray-300 p-2">Oliveira</td>
-                    <td className="border border-gray-300 p-2 text-center">15%</td>
-                </tr>
-                <tr>
-                    <td className="border border-gray-300 p-2 text-center">3</td>
-                    <td className="border border-gray-300 p-2">Hugo</td>
-                    <td className="border border-gray-300 p-2">Silva</td>
-                    <td className="border border-gray-300 p-2 text-center">20%</td>
-                </tr>
-                <tr>
-                    <td className="border border-gray-300 p-2 text-center">4</td>
-                    <td className="border border-gray-300 p-2">Eliza</td>
-                    <td className="border border-gray-300 p-2">Souza</td>
-                    <td className="border border-gray-300 p-2 text-center">20%</td>
-                </tr>
-                <tr>
-                    <td className="border border-gray-300 p-2 text-center">5</td>
-                    <td className="border border-gray-300 p-2">Anderson</td>
-                    <td className="border border-gray-300 p-2">Silva</td>
-                    <td className="border border-gray-300 p-2 text-center">40%</td>
-                </tr> */}
             </tbody>
         </table>
     )
